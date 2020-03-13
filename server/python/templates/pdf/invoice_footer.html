@@ -1,0 +1,87 @@
+{% load invoice_tags %}
+{% load static %}
+<head>
+  <link rel="stylesheet" href="{% static '/bootstrap/css/bootstrap.css' %}">
+  <style type="text/css">
+    body {
+      font-size: 14px;
+      height: 100%;
+      weight: 100%;
+    }
+    #footer{
+      padding-right: 25px;
+    }
+    .price{
+      padding-left: 0px;
+    }
+  </style>
+  <script>
+    function subst() {
+      var vars={};
+      var x=document.location.search.substring(1).split('&');
+      for(var i in x) {var z=x[i].split('=',2);vars[z[0]] = unescape(z[1]);}
+      var x=['frompage','topage','page','webpage','section','subsection','subsubsection'];
+      for(var i in x) {
+        if (vars['page'] == 1) {
+          var y = document.getElementsByClassName(x[i]);
+          for(var j=0; j<y.length; ++j) y[j].textContent = vars[x[i]];
+        } else {
+          document.getElementById('footer').style.visibility = "hidden";
+          var y = document.getElementsByClassName(x[i]);
+          for(var j=0; j<y.length; ++j) y[j].textContent = vars[x[i]];
+        }
+      }
+    }
+  </script>
+</head>
+<body onload="subst()">
+<div id="footer" class="row footer">
+  <div class="col-auto">
+    <div>
+      <span>
+        <i>Payment details:</i>
+      </span>
+    </div>
+    <div>
+      <span>Account name:
+        <strong>Andreyev Pty Ltd</strong>
+      </span>
+    </div>
+    <div>
+      <span>BSB No.:
+        <strong>115-879</strong>
+      </span>
+    </div>
+    <div>
+      <span>Account No.:
+        <strong>028-840-351</strong>
+      </span>
+    </div>
+  </div>
+  <div class="col-4 pt-4">
+    <img style="float:left;" src="data:image/jpeg;base64,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">
+    <div>
+      Biller Code:
+      <strong>208 447</strong>
+      <br /> BPAY Reference:
+      <strong>{{ invoice.number }}</strong>
+    </div>
+  </div>
+  <div class="col-auto price">
+    <div>
+      <strong>Total for this invoice: ${{ invoice | value_incl_gst }}</strong>
+    </div>
+    <div>
+      <strong>Total outstanding: ${{ invoice.net_outstanding }}</strong>
+    </div>
+    <div>
+      <strong>Due date: {{ invoice.due_date }}</strong>
+    </div>
+  </div>
+</div>
+<div class="row pages justify-content-end">
+  <div class="col-12 text-right align-self-end">
+    Page <span class="page"></span>
+  </div>
+</div>
+</body>

@@ -1,0 +1,47 @@
+{% extends 'pdf/invoice_reminder_base.html' %} {% block title %} 1st reminder {% endblock %} {% block text %}
+<div class="row" style="margin-bottom: 20px;">
+  <div class="col-12">
+    {% if invoice.matter.client.second_contact %}
+      <div class="mb-3">Dear {{ invoice.matter.client.contact.first_name }} and {{ invoice.matter.client.second_contact.first_name }},</div>
+    {% else %}
+    <div class="mb-3">Dear {{ invoice.matter.client.contact.first_name }},</div>
+    {% endif %}
+    <div class="mb-1">
+      <strong>Request for immediate payment</strong>
+    </div>
+    <div class="mb-3">
+      <strong>Invoice No. {{ invoice.number }}</strong>
+    </div>
+    <div>
+      <p>Please find enclosed a further copy of your outstanding invoice.</p>
+      <p>We note that our terms for payment have now been exceeded by some margin.</p>
+      <p>
+        <strong>
+          Can you please arrange for payment of your account at the earliest opportunity, to avoid incurring further costs in recovery
+          proceedings?
+        </strong>
+      </p>
+      <p>If you would like to pay your account by credit card or BPAY, please refer to the payment details on the back page
+        of the invoice.</p>
+      <p>If you have recently settled your account, we thank you for your payment.</p>
+      <p>
+        <p>If you have any further questions, please contact either
+          <strong>{{ user.first_name }}</strong> or
+          <strong>Andrew</strong> on
+          <strong>1300 654 590</strong>.</p>
+      </p>
+      <p>Yours sincerely,</p>
+    </div>
+  </div>
+</div>
+<div class="row mb-3">
+  <div class="col-12">
+    <strong>ANDREYEV LAWYERS</strong>
+  </div>
+</div>
+<div class="row" style="margin-bottom: 50px;">
+  <div class="col-12">
+    <span style="font-size: 11px;">Enclosure: Invoice {{ invoice.number }}</span>
+  </div>
+</div>
+{% endblock %}

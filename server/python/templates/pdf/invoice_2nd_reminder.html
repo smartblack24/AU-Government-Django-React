@@ -1,0 +1,48 @@
+{% extends 'pdf/invoice_reminder_base.html' %} {% block title %} 2nd reminder {% endblock %} {% block text %}
+<div class="row" style="margin-bottom: 20px;">
+  <div class="col-12">
+    {% if invoice.matter.client.second_contact %}
+      <div class="mb-3">Dear {{ invoice.matter.client.contact.first_name }} and {{ invoice.matter.client.second_contact.first_name }},</div>
+    {% else %}
+    <div class="mb-3">Dear {{ invoice.matter.client.contact.first_name }},</div>
+    {% endif %}
+    <div class="mb-1">
+      <strong>NOTICE OF INTENDED RECOVERY ACTION</strong>
+    </div>
+    <div class="mb-3">
+      <strong>Invoice No. {{ invoice.number }}</strong>
+    </div>
+    <div style="font-size: 13px;">
+      <p>Please refer to the attached invoice that was issued to you some time ago. Our records indicate that this invoice remains
+        unpaid.
+      </p>
+      <p>If you have paid this invoice recently, please notify us immediately, so we can update our records and avoid further
+        unnecessary action.</p>
+      <p>Unless payment of this invoice is made to our office by no later than 5pm and within 21 days of the date of this letter,
+        legal action will be commenced.</p>
+      <p>This letter constitutes
+        <strong>
+          <u>Notice of Intended Legal Action</u>
+        </strong>. No further notice will be given. In the event that legal action is commenced, we will also claim our legal costs
+        and interest on the outstanding amount.</p>
+      <p>We trust that this will not be necessary, and we look forward to receipt of your payment. You can find a number of
+        ways to pay on the back of the invoice.</p>
+      <p>If you have any questions, please contact either
+        <strong>{{ user.first_name }}</strong> or
+        <strong>Andrew</strong> on
+        <strong>1300 654 590</strong>.</p>
+      <p>Yours sincerely,</p>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <strong>ANDREYEV LAWYERS</strong>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <span style="font-size: 11px;">Enclosure: Invoice {{ invoice.number }}</span>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserInfoCard card should render UserInfoCard 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body"
+  >
+    <center
+      className="m-t-30"
+    >
+      <img
+        alt="avatar"
+        className="img-circle"
+        src="http://localhost:8000/image.png"
+        width="150"
+      />
+      <h4
+        className="card-title m-t-10"
+      >
+        Admin Qwe
+      </h4>
+    </center>
+  </div>
+  <div>
+    <hr />
+  </div>
+  <div
+    className="card-body"
+  >
+    <small
+      className="text-muted"
+    >
+      Email address
+    </small>
+    <h6>
+      qwe@qwe.qwe
+    </h6>
+    <small
+      className="text-muted p-t-30 db"
+    >
+      Phone
+    </small>
+    <h6>
+      123-12-12
+    </h6>
+    <small
+      className="text-muted p-t-30 db"
+    >
+      Address
+    </small>
+    <h6>
+      ad1, ad2,  123,  SU, 123, co
+    </h6>
+  </div>
+</div>
+`;

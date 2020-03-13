@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClearableInput should render ClearableInput 1`] = `
+<div
+  className="jsx-2047498976"
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <input
+    className="jsx-2047498976 "
+    onChange={[MockFunction]}
+    type="text"
+    value="qwe"
+  />
+  <i
+    className="jsx-2047498976 fa fa-times clear"
+    onClick={[MockFunction]}
+    role="button"
+    tabIndex="-1"
+  />
+</div>
+`;
+
+exports[`ClearableInput should render ClearableInput without value 1`] = `
+<div
+  className="jsx-1157770627"
+  style={
+    Object {
+      "position": "relative",
+    }
+  }
+>
+  <input
+    className="jsx-1157770627 "
+    onChange={[MockFunction]}
+    type="text"
+    value=""
+  />
+  <i
+    className="jsx-1157770627 fa fa-times clear"
+    onClick={[MockFunction]}
+    role="button"
+    tabIndex="-1"
+  />
+</div>
+`;

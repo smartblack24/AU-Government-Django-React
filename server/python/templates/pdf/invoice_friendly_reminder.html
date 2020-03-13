@@ -1,0 +1,34 @@
+{% extends 'pdf/invoice_reminder_base.html' %}
+
+{% block title %}
+  Friendly reminder
+{% endblock %}
+{% block text %}
+<div class="row" style="margin-bottom: 20px;">
+  <div class="col-12">
+    {% if invoice.matter.client.second_contact %}
+      <div class="mb-3">Dear {{ invoice.matter.client.contact.first_name }} and {{ invoice.matter.client.second_contact.first_name }},</div>
+    {% else %}
+    <div class="mb-3">Dear {{ invoice.matter.client.contact.first_name }},</div>
+    {% endif %}
+    <div class="mb-1"><strong>Overdue payment</strong></div>
+    <div class="mb-3"><strong>Invoice No. {{ invoice.number }}</strong></div>
+    <div>
+      <p>Please find attached a copy of your invoice that is overdue for payment.  We would appreciate you paying this invoice as soon as possible.</p>
+      <p>If you believe there has been an error on our part, or you have already paid the invoice, please contact us immediately so that the matter can be resolved.</p>
+      <p>If you have any further questions, please contact either <strong>{{ user.first_name }}</strong> or <strong>Andrew</strong> on <strong>1300 654 590</strong>.</p>
+      <p>Yours sincerely,</p>
+    </div>
+  </div>
+</div>
+<div class="row mb-3">
+  <div class="col-12">
+    <strong>ANDREYEV LAWYERS</strong>
+  </div>
+</div>
+<div class="row" style="margin-bottom: 50px;">
+  <div class="col-12">
+    <span style="font-size: 11px;">Enclosure: Invoice {{ invoice.number }}</span>
+  </div>
+</div>
+{% endblock %}

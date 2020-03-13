@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pre should render Pre with props 1`] = `
+<pre
+  className="jsx-2704498154"
+>
+  Test children
+</pre>
+`;
+
+exports[`Pre should render Pre without props 1`] = `
+<pre
+  className="jsx-2704498154"
+/>
+`;

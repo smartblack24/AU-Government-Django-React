@@ -1,0 +1,29 @@
+{
+  "presets": ["env", "react", "next/babel", "stage-0"],
+  "plugins": [
+    "transform-decorators-legacy",
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "lib": "./client/lib",
+          "components": "./client/components",
+          "reducers": "./client/reducers",
+          "actions": "./client/actions",
+          "utils": "./client/utils",
+          "constants": "./client/constants",
+          "fragments": "./client/fragments",
+          "queries": "./client/queries",
+          "pages": "./client/pages",
+          "mutations": "./client/mutations",
+          "styles": "./client/styles"
+        }
+      },
+      "wrap-in-js",
+      {
+        "extensions": ["css$", "scss$"]
+      }
+    ]
+  ]
+}

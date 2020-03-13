@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditableTd should render EditableTd with props 1`] = `
+<td
+  onClick={[Function]}
+>
+  1
+</td>
+`;

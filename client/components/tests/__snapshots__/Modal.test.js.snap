@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal should render Modal with props 1`] = `
+<div
+  className="jsx-2126699498 modal fade"
+  id={123}
+  role="dialog"
+  tabIndex="-1"
+>
+  <div
+    className="jsx-2126699498 modal-dialog modal-lg"
+    role="document"
+  >
+    <div
+      className="jsx-2126699498 modal-content"
+    >
+      <div
+        className="jsx-2126699498 modal-header"
+      >
+        <h5
+          className="jsx-2126699498 modal-title"
+        >
+          Test Modal
+        </h5>
+        <button
+          aria-label="Close"
+          className="jsx-2126699498 close"
+          data-dismiss="modal"
+          id="modalCloseButton"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            className="jsx-2126699498"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+      <div
+        className="jsx-2126699498 modal-body"
+        style={
+          Object {
+            "color": "red",
+          }
+        }
+      >
+        <div>
+          Test content
+        </div>
+      </div>
+      <div
+        className="jsx-2126699498 modal-footer"
+      >
+        Test Footer
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modal should render Modal without props 1`] = `
+<div
+  className="jsx-2126699498 modal fade"
+  role="dialog"
+  tabIndex="-1"
+>
+  <div
+    className="jsx-2126699498 modal-dialog "
+    role="document"
+  >
+    <div
+      className="jsx-2126699498 modal-content"
+    >
+      <div
+        className="jsx-2126699498 modal-header"
+      >
+        <h5
+          className="jsx-2126699498 modal-title"
+        />
+        <button
+          aria-label="Close"
+          className="jsx-2126699498 close"
+          data-dismiss="modal"
+          id="modalCloseButton"
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            className="jsx-2126699498"
+          >
+            ×
+          </span>
+        </button>
+      </div>
+      <div
+        className="jsx-2126699498 modal-body"
+        style={Object {}}
+      />
+    </div>
+  </div>
+</div>
+`;

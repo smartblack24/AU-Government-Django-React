@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render Button with icon and loading props 1`] = `
+<button
+  className="btn btn-success"
+  disabled={true}
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+  type="button"
+>
+  <i
+    aria-hidden="true"
+    className="fa fa-circle-o-notch fa-spin fa-fw"
+  />
+  Text Button
+</button>
+`;
+
+exports[`Button should render Button with icon props 1`] = `
+<button
+  className="btn btn-success"
+  disabled={true}
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+  type="button"
+>
+  <i
+    aria-hidden="true"
+    className="fa-plus"
+  />
+   
+  Text Button
+</button>
+`;
+
+exports[`Button should render Button with loading props 1`] = `
+<button
+  className="btn btn-success"
+  disabled={true}
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+  type="button"
+>
+  <i
+    aria-hidden="true"
+    className="fa fa-circle-o-notch fa-spin fa-fw"
+  />
+</button>
+`;
+
+exports[`Button should render Button with some props 1`] = `
+<button
+  className="btn btn-success"
+  disabled={true}
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+  type="button"
+>
+  Text Button
+</button>
+`;

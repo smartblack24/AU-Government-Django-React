@@ -1,0 +1,97 @@
+{% load invoice_tags %} {% load humanize %}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<head>
+  <title>My Matter report</title>
+  <style type="text/css">
+    body {
+      font-size: 15px
+    }
+
+    td,
+    th {
+      text-align: center;
+      padding-top: 5px;
+    }
+
+    .table-bordered th,
+    .table-bordered td {
+      border: 1px solid #dee2e6;
+    }
+
+    .table-bordered thead th,
+    .table-bordered thead td {
+      border-bottom-width: 2px;
+    }
+
+    .total {
+      background-color: #898b8d;
+      color: #fff;
+    }
+
+    @page {
+      size: a4 landscape;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <tbody>
+      <tr>
+        <td><strong>{{ staff }}</strong></td>
+        <td><strong>Billable Status:</strong> {{ billable_status }}</td>
+        <td></td>
+        <td></td>
+        <td><strong>{{ date | date:"d F o" }}</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th width="25%">Client</th>
+        <th>Matter</th>
+        <th>Matter status</th>
+        <th>Days open</th>
+        <th>Time Value</th>
+        <th>Invoiced</th>
+        <th>WIP</th>
+        <th>Date of Last Note</th>
+        <th>Last Note details</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for matter in matters %}
+      <tr>
+        <td width="25%">{{ matter.client.name }}</td>
+        <td>{{ matter.name }}</td>
+        <td>{{ matter.matter_status }}</td>
+        <td>{{ matter.days_open }}</td>
+        <td>${{ matter.total_time_value | two_places | intcomma }}</td>
+        <td>${{ matter.total_time_invoiced | two_places | intcomma }}</td>
+        <td>${{ matter.wip | two_places | intcomma }}</td>
+        <td>{{ matter.notes.last.date_time | date:"d/m/y" }}</td>
+        <td>{{ matter.notes.last.text }}</td>
+      </tr>
+      {% endfor %}
+      <tr>
+        <td class="total"><strong>TOTAL</strong></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total"></td>
+        <td class="total">${{ total_time_value | two_places | intcomma }}</td>
+        <td class="total">${{ total_time_invoiced | two_places | intcomma }}</td>
+        <td class="total">${{ total_wip | two_places | intcomma }}</td>
+        <td class="total"></td>
+        <td class="total"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

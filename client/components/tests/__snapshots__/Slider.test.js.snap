@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slider should render Slider with data initialState(close) 1`] = `
+<div>
+  <div
+    className="slider"
+    id="first-container"
+  >
+    <button
+      className="jsx-1712863955 btn btn-success slider-trigger"
+      onClick={[Function]}
+      type="button"
+    >
+      Test title
+       
+      <i
+        aria-hidden="true"
+        className="jsx-1712863955 fa fa-caret-left arrow"
+      />
+    </button>
+    <div
+      className="slider-body p-3 hidden-xs-up"
+      id="first"
+    >
+      <h1>
+        TEST
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Slider should render Slider with data initialState(hidden) 1`] = `
+<div>
+  <div
+    className="slider"
+    id="first-container"
+  >
+    <button
+      className="jsx-1712863955 btn btn-success slider-trigger"
+      onClick={[Function]}
+      type="button"
+    >
+      Test title
+       
+      <i
+        aria-hidden="true"
+        className="jsx-1712863955 fa fa-caret-left arrow"
+      />
+    </button>
+    <div
+      className="slider-body p-3 "
+      id="first"
+    >
+      <h1>
+        TEST
+      </h1>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Slider should render Slider without data 1`] = `
+<div>
+  <div
+    className="slider"
+    id="undefined-container"
+  >
+    <button
+      className="jsx-1712863955 btn btn-success slider-trigger"
+      onClick={[Function]}
+      type="button"
+    >
+       
+      <i
+        aria-hidden="true"
+        className="jsx-1712863955 fa fa-caret-left arrow"
+      />
+    </button>
+    <div
+      className="slider-body p-3 hidden-xs-up"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,1880 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Details tab should render Details tab with init data 1`] = `
+<form
+  className="form-horizontal form-control-line"
+  onSubmit={[Function]}
+>
+  <input
+    name="id"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onDragStart={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    type="hidden"
+    value=""
+  />
+  <input
+    name="estimatedWealthDate"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onDragStart={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    type="hidden"
+    value=""
+  />
+  <div
+    className="row"
+  >
+    <div
+      className="col col-md-auto"
+    >
+      <label
+        htmlFor="salutation"
+      >
+        Salutation
+      </label>
+      <div
+        className="false"
+      >
+        <select
+          className="form-control"
+          id="salutation"
+          input={
+            Object {
+              "name": "salutation",
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onDragStart": [Function],
+              "onDrop": [Function],
+              "onFocus": [Function],
+              "value": "",
+            }
+          }
+          meta={
+            Object {
+              "active": false,
+              "asyncValidating": false,
+              "autofilled": false,
+              "dirty": false,
+              "dispatch": [Function],
+              "error": undefined,
+              "form": "contactForm",
+              "initial": undefined,
+              "invalid": false,
+              "pristine": true,
+              "submitFailed": false,
+              "submitting": false,
+              "touched": false,
+              "valid": true,
+              "visited": false,
+              "warning": undefined,
+            }
+          }
+          name="salutation"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          value=""
+        >
+          <option
+            value={0}
+          >
+            --------
+          </option>
+          <option
+            value={1}
+          >
+            Mr
+          </option>
+          <option
+            value={2}
+          >
+            Mrs
+          </option>
+          <option
+            value={3}
+          >
+            Ms
+          </option>
+          <option
+            value={4}
+          >
+            Miss
+          </option>
+          <option
+            value={5}
+          >
+            Dr
+          </option>
+        </select>
+        <span
+          className="help-block text-danger"
+        >
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        className="col-md-12"
+        htmlFor="firstName"
+      >
+        First name (Preferred)
+      </label>
+      <div
+        className="col-md-12"
+      >
+        <div
+          className="form-group false"
+        >
+          <input
+            className="form-control  form-control-success"
+            disabled={false}
+            id="firstName"
+            name="firstName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="text"
+            value=""
+          />
+          <span
+            className="help-block text-danger"
+          >
+            <small
+              style={
+                Object {
+                  "color": "#D5B000",
+                }
+              }
+            />
+            <small />
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        className="col-md-12"
+        htmlFor="middleName"
+      >
+        Middle name
+      </label>
+      <div
+        className="col-md-12"
+      >
+        <div
+          className="form-group false"
+        >
+          <input
+            className="form-control  form-control-success"
+            disabled={false}
+            id="middleName"
+            name="middleName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="text"
+            value=""
+          />
+          <span
+            className="help-block text-danger"
+          >
+            <small
+              style={
+                Object {
+                  "color": "#D5B000",
+                }
+              }
+            />
+            <small />
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        className="col-md-12"
+        htmlFor="lastName"
+      >
+        Last name
+      </label>
+      <div
+        className="col-md-12"
+      >
+        <div
+          className="form-group false"
+        >
+          <input
+            className="form-control  form-control-success"
+            disabled={false}
+            id="lastName"
+            name="lastName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="text"
+            value=""
+          />
+          <span
+            className="help-block text-danger"
+          >
+            <small
+              style={
+                Object {
+                  "color": "#D5B000",
+                }
+              }
+            />
+            <small />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="mobile"
+      >
+        Mobile
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="mobile"
+          name="mobile"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="directLine"
+      >
+        Direct line
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="directLine"
+          name="directLine"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="email"
+      >
+        Main email
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="email"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="secondaryEmail"
+      >
+        Secondary email
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="secondaryEmail"
+          name="secondaryEmail"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="occupation"
+      >
+        Occupation
+      </label>
+      <div
+        className="false"
+      >
+        <select
+          className="form-control"
+          id="occupation"
+          input={
+            Object {
+              "name": "occupation",
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onDragStart": [Function],
+              "onDrop": [Function],
+              "onFocus": [Function],
+              "value": "",
+            }
+          }
+          meta={
+            Object {
+              "active": false,
+              "asyncValidating": false,
+              "autofilled": false,
+              "dirty": false,
+              "dispatch": [Function],
+              "error": undefined,
+              "form": "contactForm",
+              "initial": undefined,
+              "invalid": false,
+              "pristine": true,
+              "submitFailed": false,
+              "submitting": false,
+              "touched": false,
+              "valid": true,
+              "visited": false,
+              "warning": undefined,
+            }
+          }
+          name="occupation"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          value=""
+        >
+          <option>
+            Loading...
+          </option>
+        </select>
+        <span
+          className="help-block text-danger"
+        >
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="skype"
+      >
+        Skype
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="skype"
+          name="skype"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="beverage"
+      >
+        Preferred Beverage
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="beverage"
+          name="beverage"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="preferredFirstName"
+      >
+        Full name (Legal)
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="preferredFirstName"
+          name="preferredFirstName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row form-group"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="dateOfBirth"
+      >
+        Date of birth
+      </label>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": null,
+          }
+        }
+      />
+      <div>
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <input
+              className="form-control"
+              disabled={false}
+              guide={false}
+              id="dateOfBirth"
+              mask={
+                Array [
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              name="dateOfBirth"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="placeOfBirth"
+      >
+        Place Of Birth
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="placeOfBirth"
+          name="placeOfBirth"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="dateOfDeath"
+      >
+        Date of death
+      </label>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": null,
+          }
+        }
+      />
+      <div>
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <input
+              className="form-control"
+              disabled={false}
+              guide={false}
+              id="dateOfDeath"
+              mask={
+                Array [
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              name="dateOfDeath"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row form-group"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="estimatedWealth"
+      >
+        Estimated wealth
+      </label>
+      <input
+        className="form-control"
+        id="estimatedWealth"
+        name="estimatedWealth"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="estimatedWealthDate"
+      >
+        Estimated wealth date
+      </label>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": null,
+          }
+        }
+      />
+      <div>
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <input
+              className="form-control"
+              disabled={false}
+              guide={false}
+              mask={
+                Array [
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row form-group"
+  >
+    <div
+      className="col-auto"
+    >
+      <label
+        htmlFor="isActive"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      >
+        Active status
+      </label>
+      <div
+        className="switch"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 30,
+          }
+        }
+      >
+        <label>
+          <input
+            checked={false}
+            name="isActive"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="checkbox"
+            value=""
+          />
+          <span
+            className="lever switch-col-light-blue"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="col-auto"
+    >
+      <label
+        htmlFor="voi"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      >
+        VOI
+      </label>
+      <div
+        className="switch"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 30,
+          }
+        }
+      >
+        <label>
+          <input
+            checked={false}
+            name="voi"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="checkbox"
+            value=""
+          />
+          <span
+            className="lever switch-col-light-blue"
+          />
+        </label>
+      </div>
+    </div>
+  </div>
+  <button
+    className="btn btn-success"
+    style={
+      Object {
+        "width": 120,
+      }
+    }
+    type="submit"
+  >
+    Update profile
+  </button>
+</form>
+`;
+
+exports[`Contact Details tab should render Details tab with passed data  1`] = `
+<form
+  className="form-horizontal form-control-line"
+  onSubmit={[Function]}
+>
+  <input
+    name="id"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onDragStart={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    type="hidden"
+    value=""
+  />
+  <input
+    name="estimatedWealthDate"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onDragStart={[Function]}
+    onDrop={[Function]}
+    onFocus={[Function]}
+    type="hidden"
+    value=""
+  />
+  <div
+    className="row"
+  >
+    <div
+      className="col col-md-auto"
+    >
+      <label
+        htmlFor="salutation"
+      >
+        Salutation
+      </label>
+      <div
+        className="false"
+      >
+        <select
+          className="form-control"
+          id="salutation"
+          input={
+            Object {
+              "name": "salutation",
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onDragStart": [Function],
+              "onDrop": [Function],
+              "onFocus": [Function],
+              "value": "",
+            }
+          }
+          meta={
+            Object {
+              "active": false,
+              "asyncValidating": false,
+              "autofilled": false,
+              "dirty": false,
+              "dispatch": [Function],
+              "error": undefined,
+              "form": "contactForm",
+              "initial": undefined,
+              "invalid": false,
+              "pristine": true,
+              "submitFailed": false,
+              "submitting": false,
+              "touched": false,
+              "valid": true,
+              "visited": false,
+              "warning": undefined,
+            }
+          }
+          name="salutation"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          value=""
+        >
+          <option
+            value={0}
+          >
+            --------
+          </option>
+          <option
+            value={1}
+          >
+            Mr
+          </option>
+          <option
+            value={2}
+          >
+            Mrs
+          </option>
+          <option
+            value={3}
+          >
+            Ms
+          </option>
+          <option
+            value={4}
+          >
+            Miss
+          </option>
+          <option
+            value={5}
+          >
+            Dr
+          </option>
+        </select>
+        <span
+          className="help-block text-danger"
+        >
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        className="col-md-12"
+        htmlFor="firstName"
+      >
+        First name (Preferred)
+      </label>
+      <div
+        className="col-md-12"
+      >
+        <div
+          className="form-group false"
+        >
+          <input
+            className="form-control  form-control-success"
+            disabled={false}
+            id="firstName"
+            name="firstName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="text"
+            value=""
+          />
+          <span
+            className="help-block text-danger"
+          >
+            <small
+              style={
+                Object {
+                  "color": "#D5B000",
+                }
+              }
+            />
+            <small />
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        className="col-md-12"
+        htmlFor="middleName"
+      >
+        Middle name
+      </label>
+      <div
+        className="col-md-12"
+      >
+        <div
+          className="form-group false"
+        >
+          <input
+            className="form-control  form-control-success"
+            disabled={false}
+            id="middleName"
+            name="middleName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="text"
+            value=""
+          />
+          <span
+            className="help-block text-danger"
+          >
+            <small
+              style={
+                Object {
+                  "color": "#D5B000",
+                }
+              }
+            />
+            <small />
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        className="col-md-12"
+        htmlFor="lastName"
+      >
+        Last name
+      </label>
+      <div
+        className="col-md-12"
+      >
+        <div
+          className="form-group false"
+        >
+          <input
+            className="form-control  form-control-success"
+            disabled={false}
+            id="lastName"
+            name="lastName"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="text"
+            value=""
+          />
+          <span
+            className="help-block text-danger"
+          >
+            <small
+              style={
+                Object {
+                  "color": "#D5B000",
+                }
+              }
+            />
+            <small />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="mobile"
+      >
+        Mobile
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="mobile"
+          name="mobile"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="directLine"
+      >
+        Direct line
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="directLine"
+          name="directLine"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="email"
+      >
+        Main email
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="email"
+          name="email"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="secondaryEmail"
+      >
+        Secondary email
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="secondaryEmail"
+          name="secondaryEmail"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="occupation"
+      >
+        Occupation
+      </label>
+      <div
+        className="false"
+      >
+        <select
+          className="form-control"
+          id="occupation"
+          input={
+            Object {
+              "name": "occupation",
+              "onBlur": [Function],
+              "onChange": [Function],
+              "onDragStart": [Function],
+              "onDrop": [Function],
+              "onFocus": [Function],
+              "value": "",
+            }
+          }
+          meta={
+            Object {
+              "active": false,
+              "asyncValidating": false,
+              "autofilled": false,
+              "dirty": false,
+              "dispatch": [Function],
+              "error": undefined,
+              "form": "contactForm",
+              "initial": undefined,
+              "invalid": false,
+              "pristine": true,
+              "submitFailed": false,
+              "submitting": false,
+              "touched": false,
+              "valid": true,
+              "visited": false,
+              "warning": undefined,
+            }
+          }
+          name="occupation"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          value=""
+        >
+          <option
+            value="1"
+          >
+            Banker
+          </option>
+          <option
+            value="2"
+          >
+            Barrister
+          </option>
+        </select>
+        <span
+          className="help-block text-danger"
+        >
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="skype"
+      >
+        Skype
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="skype"
+          name="skype"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="beverage"
+      >
+        Preferred Beverage
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="beverage"
+          name="beverage"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="preferredFirstName"
+      >
+        Full name (Legal)
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="preferredFirstName"
+          name="preferredFirstName"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          type="text"
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row form-group"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="dateOfBirth"
+      >
+        Date of birth
+      </label>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": null,
+          }
+        }
+      />
+      <div>
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <input
+              className="form-control"
+              disabled={false}
+              guide={false}
+              id="dateOfBirth"
+              mask={
+                Array [
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              name="dateOfBirth"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="placeOfBirth"
+      >
+        Place Of Birth
+      </label>
+      <div
+        className="form-group false"
+      >
+        <input
+          className="form-control  form-control-success"
+          disabled={false}
+          id="placeOfBirth"
+          name="placeOfBirth"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onDragStart={[Function]}
+          onDrop={[Function]}
+          onFocus={[Function]}
+          value=""
+        />
+        <span
+          className="help-block text-danger"
+        >
+          <small
+            style={
+              Object {
+                "color": "#D5B000",
+              }
+            }
+          />
+          <small />
+        </span>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="dateOfDeath"
+      >
+        Date of death
+      </label>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": null,
+          }
+        }
+      />
+      <div>
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <input
+              className="form-control"
+              disabled={false}
+              guide={false}
+              id="dateOfDeath"
+              mask={
+                Array [
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              name="dateOfDeath"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row form-group"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="estimatedWealth"
+      >
+        Estimated wealth
+      </label>
+      <input
+        className="form-control"
+        id="estimatedWealth"
+        name="estimatedWealth"
+        onChange={[Function]}
+        type="text"
+      />
+    </div>
+    <div
+      className="col"
+    >
+      <label
+        htmlFor="estimatedWealthDate"
+      >
+        Estimated wealth date
+      </label>
+      <style
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": null,
+          }
+        }
+      />
+      <div>
+        <div
+          className="react-datepicker-wrapper"
+        >
+          <div
+            className="react-datepicker__input-container"
+          >
+            <input
+              className="form-control"
+              disabled={false}
+              guide={false}
+              mask={
+                Array [
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  "/",
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                  /\\\\d/,
+                ]
+              }
+              onBlur={[Function]}
+              onChange={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="row form-group"
+  >
+    <div
+      className="col-auto"
+    >
+      <label
+        htmlFor="isActive"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      >
+        Active status
+      </label>
+      <div
+        className="switch"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 30,
+          }
+        }
+      >
+        <label>
+          <input
+            checked={false}
+            name="isActive"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="checkbox"
+            value=""
+          />
+          <span
+            className="lever switch-col-light-blue"
+          />
+        </label>
+      </div>
+    </div>
+    <div
+      className="col-auto"
+    >
+      <label
+        htmlFor="voi"
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      >
+        VOI
+      </label>
+      <div
+        className="switch"
+        style={
+          Object {
+            "display": "inline-block",
+            "height": 30,
+          }
+        }
+      >
+        <label>
+          <input
+            checked={false}
+            name="voi"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onDragStart={[Function]}
+            onDrop={[Function]}
+            onFocus={[Function]}
+            type="checkbox"
+            value=""
+          />
+          <span
+            className="lever switch-col-light-blue"
+          />
+        </label>
+      </div>
+    </div>
+  </div>
+  <button
+    className="btn btn-success"
+    style={
+      Object {
+        "width": 120,
+      }
+    }
+    type="submit"
+  >
+    Update profile
+  </button>
+</form>
+`;
+
+exports[`Contact Details tab should return occupation data from mock server  1`] = `
+Object {
+  "occupation": Object {
+    "id": "5",
+    "name": "Executive",
+  },
+}
+`;
+
+exports[`Contact Details tab should return occupations data from mock server  1`] = `
+Object {
+  "occupations": Array [
+    Object {
+      "id": "3",
+      "name": "Builder",
+    },
+    Object {
+      "id": "4",
+      "name": "Engineer",
+    },
+  ],
+}
+`;

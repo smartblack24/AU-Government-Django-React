@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnbilledTimeTable should render UnbilledTimeTable 1`] = `
+<table
+  className="jsx-3598123328 table table-bordered table-striped m-b-0"
+  id="mainTable"
+>
+  <thead
+    className="jsx-3598123328"
+  >
+    <tr
+      className="jsx-3598123328"
+    >
+      <th
+        className="jsx-3598123328"
+      >
+        Date created
+      </th>
+      <th
+        className="jsx-3598123328"
+      >
+        Staff Member
+      </th>
+      <th
+        className="jsx-3598123328"
+      >
+        Description
+      </th>
+      <th
+        className="jsx-3598123328"
+      >
+        Billable
+      </th>
+      <th
+        className="jsx-3598123328"
+      >
+        Actual units
+      </th>
+      <th
+        className="jsx-3598123328"
+      >
+        Units to bill
+      </th>
+      <th
+        className="jsx-3598123328"
+      >
+        Rate
+      </th>
+      <th
+        className="jsx-3598123328"
+      >
+        Value
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="jsx-3598123328"
+  >
+    <tr
+      className="jsx-3598123328"
+      onClick={[Function]}
+    >
+      <td
+        className="jsx-3598123328"
+        style={
+          Object {
+            "width": "10%",
+          }
+        }
+      >
+        16/01/2019
+         
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        qwe qwe
+      </td>
+      <td
+        className="jsx-3598123328"
+        style={
+          Object {
+            "whiteSpace": "pre-line",
+          }
+        }
+      />
+      <td
+        className="jsx-3598123328"
+      >
+        Non billable
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        2
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        0
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        $12.00
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        $12.00
+      </td>
+    </tr>
+    <tr
+      className="jsx-3598123328"
+      onClick={[Function]}
+    >
+      <td
+        className="jsx-3598123328"
+        style={
+          Object {
+            "width": "10%",
+          }
+        }
+      >
+        16/01/2019
+         
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        qwe qwe
+      </td>
+      <td
+        className="jsx-3598123328"
+        style={
+          Object {
+            "whiteSpace": "pre-line",
+          }
+        }
+      />
+      <td
+        className="jsx-3598123328"
+      >
+        Billable
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        2
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        12
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        $12.00
+      </td>
+      <td
+        className="jsx-3598123328"
+      >
+        $12.00
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

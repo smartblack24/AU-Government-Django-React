@@ -1,0 +1,1668 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Clients tab should render Clients tab with data 1`] = `
+<ApolloProvider
+  client={
+    ApolloClient {
+      "addTypename": true,
+      "dataId": [Function],
+      "dataIdFromObject": [Function],
+      "disableNetworkFetches": false,
+      "fieldWithArgs": [Function],
+      "fragmentMatcher": HeuristicFragmentMatcher {},
+      "initialState": Object {},
+      "middleware": [Function],
+      "mutate": [Function],
+      "networkInterface": Object {
+        "query": [Function],
+      },
+      "query": [Function],
+      "queryDeduplication": true,
+      "queryManager": QueryManager {
+        "addTypename": true,
+        "deduplicator": Deduplicator {
+          "inFlightRequestPromises": Object {},
+          "networkInterface": Object {
+            "query": [Function],
+          },
+        },
+        "fetchQueryPromises": Object {},
+        "fragmentMatcher": HeuristicFragmentMatcher {},
+        "idCounter": 5,
+        "networkInterface": Object {
+          "query": [Function],
+        },
+        "observableQueries": Object {
+          "1": Object {
+            "observableQuery": ObservableQuery {
+              "isCurrentlyPolling": false,
+              "lastResult": Object {
+                "data": Object {
+                  "contact": Object {
+                    "__typename": "Contact",
+                    "clients": Object {
+                      "__typename": "ClientsConnection",
+                      "edges": Array [
+                        Object {
+                          "__typename": "ClientsEdge",
+                          "cursor": "Cursor line",
+                          "node": Object {
+                            "__typename": "Client",
+                            "id": "2",
+                            "name": "Barry Mich",
+                            Symbol(id): "Client:2",
+                          },
+                          Symbol(id): "$Contact:1.clients.edges.0",
+                        },
+                        Object {
+                          "__typename": "ClientsEdge",
+                          "cursor": "Cursor line",
+                          "node": Object {
+                            "__typename": "Client",
+                            "id": "3",
+                            "name": "In Dus",
+                            Symbol(id): "Client:3",
+                          },
+                          Symbol(id): "$Contact:1.clients.edges.1",
+                        },
+                      ],
+                      Symbol(id): "$Contact:1.clients",
+                    },
+                    "id": "1",
+                    "secondClients": Object {
+                      "__typename": "ClientsConnection",
+                      "edges": Array [
+                        Object {
+                          "__typename": "ClientsEdge",
+                          "cursor": "Cursor line",
+                          "node": Object {
+                            "__typename": "Client",
+                            "id": "4",
+                            "name": "Eng Ineer",
+                            Symbol(id): "Client:4",
+                          },
+                          Symbol(id): "$Contact:1.secondClients.edges.0",
+                        },
+                        Object {
+                          "__typename": "ClientsEdge",
+                          "cursor": "Cursor line",
+                          "node": Object {
+                            "__typename": "Client",
+                            "id": "5",
+                            "name": "Stu Idiot",
+                            Symbol(id): "Client:5",
+                          },
+                          Symbol(id): "$Contact:1.secondClients.edges.1",
+                        },
+                      ],
+                      Symbol(id): "$Contact:1.secondClients",
+                    },
+                    Symbol(id): "Contact:1",
+                  },
+                  Symbol(id): "ROOT_QUERY",
+                },
+                "loading": false,
+                "networkStatus": 7,
+                "stale": false,
+              },
+              "observers": Array [
+                Object {
+                  "error": [Function],
+                  "next": [Function],
+                },
+              ],
+              "options": Object {
+                "metadata": Object {
+                  "reactComponent": Object {
+                    "displayName": "Apollo(Clients)",
+                  },
+                },
+                "notifyOnNetworkStatusChange": false,
+                "query": Object {
+                  "definitions": Array [
+                    Object {
+                      "directives": Array [],
+                      "kind": "OperationDefinition",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "ContactClients",
+                      },
+                      "operation": "query",
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": null,
+                            "arguments": Array [
+                              Object {
+                                "kind": "Argument",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "id",
+                                },
+                                "value": Object {
+                                  "kind": "Variable",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "contactId",
+                                  },
+                                },
+                              },
+                            ],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "contact",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "id",
+                                  },
+                                  "selectionSet": null,
+                                },
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "clients",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "edges",
+                                        },
+                                        "selectionSet": Object {
+                                          "kind": "SelectionSet",
+                                          "selections": Array [
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "cursor",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "node",
+                                              },
+                                              "selectionSet": Object {
+                                                "kind": "SelectionSet",
+                                                "selections": Array [
+                                                  Object {
+                                                    "alias": null,
+                                                    "arguments": Array [],
+                                                    "directives": Array [],
+                                                    "kind": "Field",
+                                                    "name": Object {
+                                                      "kind": "Name",
+                                                      "value": "id",
+                                                    },
+                                                    "selectionSet": null,
+                                                  },
+                                                  Object {
+                                                    "alias": null,
+                                                    "arguments": Array [],
+                                                    "directives": Array [],
+                                                    "kind": "Field",
+                                                    "name": Object {
+                                                      "kind": "Name",
+                                                      "value": "name",
+                                                    },
+                                                    "selectionSet": null,
+                                                  },
+                                                ],
+                                              },
+                                            },
+                                          ],
+                                        },
+                                      },
+                                    ],
+                                  },
+                                },
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "secondClients",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "edges",
+                                        },
+                                        "selectionSet": Object {
+                                          "kind": "SelectionSet",
+                                          "selections": Array [
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "cursor",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "node",
+                                              },
+                                              "selectionSet": Object {
+                                                "kind": "SelectionSet",
+                                                "selections": Array [
+                                                  Object {
+                                                    "alias": null,
+                                                    "arguments": Array [],
+                                                    "directives": Array [],
+                                                    "kind": "Field",
+                                                    "name": Object {
+                                                      "kind": "Name",
+                                                      "value": "id",
+                                                    },
+                                                    "selectionSet": null,
+                                                  },
+                                                  Object {
+                                                    "alias": null,
+                                                    "arguments": Array [],
+                                                    "directives": Array [],
+                                                    "kind": "Field",
+                                                    "name": Object {
+                                                      "kind": "Name",
+                                                      "value": "name",
+                                                    },
+                                                    "selectionSet": null,
+                                                  },
+                                                ],
+                                              },
+                                            },
+                                          ],
+                                        },
+                                      },
+                                    ],
+                                  },
+                                },
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "variableDefinitions": Array [
+                        Object {
+                          "defaultValue": null,
+                          "kind": "VariableDefinition",
+                          "type": Object {
+                            "kind": "NonNullType",
+                            "type": Object {
+                              "kind": "NamedType",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "ID",
+                              },
+                            },
+                          },
+                          "variable": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "contactId",
+                            },
+                          },
+                        },
+                      ],
+                    },
+                  ],
+                  "kind": "Document",
+                  "loc": Object {
+                    "end": 354,
+                    "start": 0,
+                  },
+                },
+                "variables": Object {
+                  "contactId": 1,
+                },
+              },
+              "queryId": "1",
+              "queryManager": [Circular],
+              "scheduler": QueryScheduler {
+                "inFlightQueries": Object {},
+                "intervalQueries": Object {},
+                "pollingTimers": Object {},
+                "queryManager": [Circular],
+                "registeredQueries": Object {},
+              },
+              "shouldSubscribe": true,
+              "subscriberFunction": [Function],
+              "subscriptionHandles": Array [],
+              "variables": Object {
+                "contactId": 1,
+              },
+            },
+          },
+          "3": Object {
+            "observableQuery": ObservableQuery {
+              "isCurrentlyPolling": false,
+              "lastResult": Object {
+                "data": Object {
+                  "contact": Object {
+                    "__typename": "Contact",
+                    "clients": Object {
+                      "__typename": "ClientsConnection",
+                      "edges": Array [
+                        Object {
+                          "__typename": "ClientsEdge",
+                          "cursor": "Cursor line",
+                          "node": Object {
+                            "__typename": "Client",
+                            "id": "2",
+                            "name": "Barry Mich",
+                            Symbol(id): "Client:2",
+                          },
+                          Symbol(id): "$Contact:1.clients.edges.0",
+                        },
+                        Object {
+                          "__typename": "ClientsEdge",
+                          "cursor": "Cursor line",
+                          "node": Object {
+                            "__typename": "Client",
+                            "id": "3",
+                            "name": "In Dus",
+                            Symbol(id): "Client:3",
+                          },
+                          Symbol(id): "$Contact:1.clients.edges.1",
+                        },
+                      ],
+                      Symbol(id): "$Contact:1.clients",
+                    },
+                    "id": "1",
+                    "secondClients": Object {
+                      "__typename": "ClientsConnection",
+                      "edges": Array [
+                        Object {
+                          "__typename": "ClientsEdge",
+                          "cursor": "Cursor line",
+                          "node": Object {
+                            "__typename": "Client",
+                            "id": "4",
+                            "name": "Eng Ineer",
+                            Symbol(id): "Client:4",
+                          },
+                          Symbol(id): "$Contact:1.secondClients.edges.0",
+                        },
+                        Object {
+                          "__typename": "ClientsEdge",
+                          "cursor": "Cursor line",
+                          "node": Object {
+                            "__typename": "Client",
+                            "id": "5",
+                            "name": "Stu Idiot",
+                            Symbol(id): "Client:5",
+                          },
+                          Symbol(id): "$Contact:1.secondClients.edges.1",
+                        },
+                      ],
+                      Symbol(id): "$Contact:1.secondClients",
+                    },
+                    Symbol(id): "Contact:1",
+                  },
+                  Symbol(id): "ROOT_QUERY",
+                },
+                "loading": false,
+                "networkStatus": 7,
+                "stale": false,
+              },
+              "observers": Array [
+                Object {
+                  "error": [Function],
+                  "next": [Function],
+                },
+              ],
+              "options": Object {
+                "metadata": Object {
+                  "reactComponent": Object {
+                    "displayName": "Apollo(Clients)",
+                  },
+                },
+                "notifyOnNetworkStatusChange": false,
+                "query": Object {
+                  "definitions": Array [
+                    Object {
+                      "directives": Array [],
+                      "kind": "OperationDefinition",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "ContactClients",
+                      },
+                      "operation": "query",
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": null,
+                            "arguments": Array [
+                              Object {
+                                "kind": "Argument",
+                                "name": Object {
+                                  "kind": "Name",
+                                  "value": "id",
+                                },
+                                "value": Object {
+                                  "kind": "Variable",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "contactId",
+                                  },
+                                },
+                              },
+                            ],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "contact",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "id",
+                                  },
+                                  "selectionSet": null,
+                                },
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "clients",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "edges",
+                                        },
+                                        "selectionSet": Object {
+                                          "kind": "SelectionSet",
+                                          "selections": Array [
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "cursor",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "node",
+                                              },
+                                              "selectionSet": Object {
+                                                "kind": "SelectionSet",
+                                                "selections": Array [
+                                                  Object {
+                                                    "alias": null,
+                                                    "arguments": Array [],
+                                                    "directives": Array [],
+                                                    "kind": "Field",
+                                                    "name": Object {
+                                                      "kind": "Name",
+                                                      "value": "id",
+                                                    },
+                                                    "selectionSet": null,
+                                                  },
+                                                  Object {
+                                                    "alias": null,
+                                                    "arguments": Array [],
+                                                    "directives": Array [],
+                                                    "kind": "Field",
+                                                    "name": Object {
+                                                      "kind": "Name",
+                                                      "value": "name",
+                                                    },
+                                                    "selectionSet": null,
+                                                  },
+                                                ],
+                                              },
+                                            },
+                                          ],
+                                        },
+                                      },
+                                    ],
+                                  },
+                                },
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "secondClients",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "edges",
+                                        },
+                                        "selectionSet": Object {
+                                          "kind": "SelectionSet",
+                                          "selections": Array [
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "cursor",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "node",
+                                              },
+                                              "selectionSet": Object {
+                                                "kind": "SelectionSet",
+                                                "selections": Array [
+                                                  Object {
+                                                    "alias": null,
+                                                    "arguments": Array [],
+                                                    "directives": Array [],
+                                                    "kind": "Field",
+                                                    "name": Object {
+                                                      "kind": "Name",
+                                                      "value": "id",
+                                                    },
+                                                    "selectionSet": null,
+                                                  },
+                                                  Object {
+                                                    "alias": null,
+                                                    "arguments": Array [],
+                                                    "directives": Array [],
+                                                    "kind": "Field",
+                                                    "name": Object {
+                                                      "kind": "Name",
+                                                      "value": "name",
+                                                    },
+                                                    "selectionSet": null,
+                                                  },
+                                                ],
+                                              },
+                                            },
+                                          ],
+                                        },
+                                      },
+                                    ],
+                                  },
+                                },
+                              ],
+                            },
+                          },
+                        ],
+                      },
+                      "variableDefinitions": Array [
+                        Object {
+                          "defaultValue": null,
+                          "kind": "VariableDefinition",
+                          "type": Object {
+                            "kind": "NonNullType",
+                            "type": Object {
+                              "kind": "NamedType",
+                              "name": Object {
+                                "kind": "Name",
+                                "value": "ID",
+                              },
+                            },
+                          },
+                          "variable": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "contactId",
+                            },
+                          },
+                        },
+                      ],
+                    },
+                  ],
+                  "kind": "Document",
+                  "loc": Object {
+                    "end": 354,
+                    "start": 0,
+                  },
+                },
+                "variables": Object {
+                  "contactId": 1,
+                },
+              },
+              "queryId": "3",
+              "queryManager": [Circular],
+              "scheduler": QueryScheduler {
+                "inFlightQueries": Object {},
+                "intervalQueries": Object {},
+                "pollingTimers": Object {},
+                "queryManager": [Circular],
+                "registeredQueries": Object {},
+              },
+              "shouldSubscribe": true,
+              "subscriberFunction": [Function],
+              "subscriptionHandles": Array [],
+              "variables": Object {
+                "contactId": 1,
+              },
+            },
+          },
+        },
+        "pollingTimers": Object {},
+        "queryDeduplication": true,
+        "queryDocuments": Object {
+          "1": Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": Object {
+                  "kind": "Name",
+                  "value": "ContactClients",
+                },
+                "operation": "query",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": null,
+                      "arguments": Array [
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "id",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "contactId",
+                            },
+                          },
+                        },
+                      ],
+                      "directives": Array [],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "contact",
+                      },
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": null,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "id",
+                            },
+                            "selectionSet": null,
+                          },
+                          Object {
+                            "alias": null,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "clients",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "edges",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "cursor",
+                                        },
+                                        "selectionSet": null,
+                                      },
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "node",
+                                        },
+                                        "selectionSet": Object {
+                                          "kind": "SelectionSet",
+                                          "selections": Array [
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "id",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "name",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "__typename",
+                                              },
+                                            },
+                                          ],
+                                        },
+                                      },
+                                      Object {
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "__typename",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                },
+                                Object {
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "__typename",
+                                  },
+                                },
+                              ],
+                            },
+                          },
+                          Object {
+                            "alias": null,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "secondClients",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "edges",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "cursor",
+                                        },
+                                        "selectionSet": null,
+                                      },
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "node",
+                                        },
+                                        "selectionSet": Object {
+                                          "kind": "SelectionSet",
+                                          "selections": Array [
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "id",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "name",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "__typename",
+                                              },
+                                            },
+                                          ],
+                                        },
+                                      },
+                                      Object {
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "__typename",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                },
+                                Object {
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "__typename",
+                                  },
+                                },
+                              ],
+                            },
+                          },
+                          Object {
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "__typename",
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [
+                  Object {
+                    "defaultValue": null,
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "ID",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "contactId",
+                      },
+                    },
+                  },
+                ],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 354,
+              "source": Object {
+                "body": "
+  query ContactClients($contactId: ID!) {
+    contact(id: $contactId) {
+      id
+      clients {
+        edges {
+          cursor
+          node {
+            id
+            name
+          }
+        }
+      }
+      secondClients {
+        edges {
+          cursor
+          node {
+            id
+            name
+          }
+        }
+      }
+    }
+  }
+",
+                "locationOffset": Object {
+                  "column": 1,
+                  "line": 1,
+                },
+                "name": "GraphQL request",
+              },
+              "start": 0,
+            },
+          },
+          "3": Object {
+            "definitions": Array [
+              Object {
+                "directives": Array [],
+                "kind": "OperationDefinition",
+                "name": Object {
+                  "kind": "Name",
+                  "value": "ContactClients",
+                },
+                "operation": "query",
+                "selectionSet": Object {
+                  "kind": "SelectionSet",
+                  "selections": Array [
+                    Object {
+                      "alias": null,
+                      "arguments": Array [
+                        Object {
+                          "kind": "Argument",
+                          "name": Object {
+                            "kind": "Name",
+                            "value": "id",
+                          },
+                          "value": Object {
+                            "kind": "Variable",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "contactId",
+                            },
+                          },
+                        },
+                      ],
+                      "directives": Array [],
+                      "kind": "Field",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "contact",
+                      },
+                      "selectionSet": Object {
+                        "kind": "SelectionSet",
+                        "selections": Array [
+                          Object {
+                            "alias": null,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "id",
+                            },
+                            "selectionSet": null,
+                          },
+                          Object {
+                            "alias": null,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "clients",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "edges",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "cursor",
+                                        },
+                                        "selectionSet": null,
+                                      },
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "node",
+                                        },
+                                        "selectionSet": Object {
+                                          "kind": "SelectionSet",
+                                          "selections": Array [
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "id",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "name",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "__typename",
+                                              },
+                                            },
+                                          ],
+                                        },
+                                      },
+                                      Object {
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "__typename",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                },
+                                Object {
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "__typename",
+                                  },
+                                },
+                              ],
+                            },
+                          },
+                          Object {
+                            "alias": null,
+                            "arguments": Array [],
+                            "directives": Array [],
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "secondClients",
+                            },
+                            "selectionSet": Object {
+                              "kind": "SelectionSet",
+                              "selections": Array [
+                                Object {
+                                  "alias": null,
+                                  "arguments": Array [],
+                                  "directives": Array [],
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "edges",
+                                  },
+                                  "selectionSet": Object {
+                                    "kind": "SelectionSet",
+                                    "selections": Array [
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "cursor",
+                                        },
+                                        "selectionSet": null,
+                                      },
+                                      Object {
+                                        "alias": null,
+                                        "arguments": Array [],
+                                        "directives": Array [],
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "node",
+                                        },
+                                        "selectionSet": Object {
+                                          "kind": "SelectionSet",
+                                          "selections": Array [
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "id",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "alias": null,
+                                              "arguments": Array [],
+                                              "directives": Array [],
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "name",
+                                              },
+                                              "selectionSet": null,
+                                            },
+                                            Object {
+                                              "kind": "Field",
+                                              "name": Object {
+                                                "kind": "Name",
+                                                "value": "__typename",
+                                              },
+                                            },
+                                          ],
+                                        },
+                                      },
+                                      Object {
+                                        "kind": "Field",
+                                        "name": Object {
+                                          "kind": "Name",
+                                          "value": "__typename",
+                                        },
+                                      },
+                                    ],
+                                  },
+                                },
+                                Object {
+                                  "kind": "Field",
+                                  "name": Object {
+                                    "kind": "Name",
+                                    "value": "__typename",
+                                  },
+                                },
+                              ],
+                            },
+                          },
+                          Object {
+                            "kind": "Field",
+                            "name": Object {
+                              "kind": "Name",
+                              "value": "__typename",
+                            },
+                          },
+                        ],
+                      },
+                    },
+                  ],
+                },
+                "variableDefinitions": Array [
+                  Object {
+                    "defaultValue": null,
+                    "kind": "VariableDefinition",
+                    "type": Object {
+                      "kind": "NonNullType",
+                      "type": Object {
+                        "kind": "NamedType",
+                        "name": Object {
+                          "kind": "Name",
+                          "value": "ID",
+                        },
+                      },
+                    },
+                    "variable": Object {
+                      "kind": "Variable",
+                      "name": Object {
+                        "kind": "Name",
+                        "value": "contactId",
+                      },
+                    },
+                  },
+                ],
+              },
+            ],
+            "kind": "Document",
+            "loc": Object {
+              "end": 354,
+              "source": Object {
+                "body": "
+  query ContactClients($contactId: ID!) {
+    contact(id: $contactId) {
+      id
+      clients {
+        edges {
+          cursor
+          node {
+            id
+            name
+          }
+        }
+      }
+      secondClients {
+        edges {
+          cursor
+          node {
+            id
+            name
+          }
+        }
+      }
+    }
+  }
+",
+                "locationOffset": Object {
+                  "column": 1,
+                  "line": 1,
+                },
+                "name": "GraphQL request",
+              },
+              "start": 0,
+            },
+          },
+        },
+        "queryIdsByName": Object {
+          "ContactClients": Array [
+            "1",
+            "3",
+          ],
+        },
+        "queryListeners": Object {
+          "1": Array [
+            [Function],
+          ],
+          "3": Array [
+            [Function],
+          ],
+        },
+        "reducerConfig": Object {
+          "addTypename": true,
+          "customResolvers": undefined,
+          "dataIdFromObject": [Function],
+          "fragmentMatcher": [Function],
+        },
+        "reduxRootSelector": [Function],
+        "scheduler": QueryScheduler {
+          "inFlightQueries": Object {},
+          "intervalQueries": Object {},
+          "pollingTimers": Object {},
+          "queryManager": [Circular],
+          "registeredQueries": Object {},
+        },
+        "ssrMode": false,
+        "store": Object {
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+          Symbol(observable): [Function],
+        },
+      },
+      "reducerConfig": Object {
+        "addTypename": true,
+        "customResolvers": undefined,
+        "dataIdFromObject": [Function],
+        "fragmentMatcher": [Function],
+      },
+      "resetStore": [Function],
+      "setStore": [Function],
+      "ssrMode": false,
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      },
+      "version": "local",
+      "watchQuery": [Function],
+    }
+  }
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Apollo(Clients)
+    contactId={1}
+  >
+    <Clients
+      contactId={1}
+      data={
+        Object {
+          "contact": Object {
+            "__typename": "Contact",
+            "clients": Object {
+              "__typename": "ClientsConnection",
+              "edges": Array [
+                Object {
+                  "__typename": "ClientsEdge",
+                  "cursor": "Cursor line",
+                  "node": Object {
+                    "__typename": "Client",
+                    "id": "2",
+                    "name": "Barry Mich",
+                    Symbol(id): "Client:2",
+                  },
+                  Symbol(id): "$Contact:1.clients.edges.0",
+                },
+                Object {
+                  "__typename": "ClientsEdge",
+                  "cursor": "Cursor line",
+                  "node": Object {
+                    "__typename": "Client",
+                    "id": "3",
+                    "name": "In Dus",
+                    Symbol(id): "Client:3",
+                  },
+                  Symbol(id): "$Contact:1.clients.edges.1",
+                },
+              ],
+              Symbol(id): "$Contact:1.clients",
+            },
+            "id": "1",
+            "secondClients": Object {
+              "__typename": "ClientsConnection",
+              "edges": Array [
+                Object {
+                  "__typename": "ClientsEdge",
+                  "cursor": "Cursor line",
+                  "node": Object {
+                    "__typename": "Client",
+                    "id": "4",
+                    "name": "Eng Ineer",
+                    Symbol(id): "Client:4",
+                  },
+                  Symbol(id): "$Contact:1.secondClients.edges.0",
+                },
+                Object {
+                  "__typename": "ClientsEdge",
+                  "cursor": "Cursor line",
+                  "node": Object {
+                    "__typename": "Client",
+                    "id": "5",
+                    "name": "Stu Idiot",
+                    Symbol(id): "Client:5",
+                  },
+                  Symbol(id): "$Contact:1.secondClients.edges.1",
+                },
+              ],
+              Symbol(id): "$Contact:1.secondClients",
+            },
+            Symbol(id): "Contact:1",
+          },
+          "error": undefined,
+          "fetchMore": [Function],
+          "loading": false,
+          "networkStatus": 7,
+          "refetch": [Function],
+          "startPolling": [Function],
+          "stopPolling": [Function],
+          "subscribeToMore": [Function],
+          "updateQuery": [Function],
+          "variables": Object {
+            "contactId": 1,
+          },
+        }
+      }
+    >
+      <div>
+        <div
+          className="table-responsive"
+        >
+          <table
+            className="table table-bordered"
+          >
+            <thead>
+              <tr>
+                <th>
+                  Clients
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                className="org-item"
+                key="4"
+              >
+                <td>
+                  <a
+                    href="/client/4"
+                    target="_blank"
+                  >
+                    Eng Ineer
+                  </a>
+                </td>
+              </tr>
+              <tr
+                className="org-item"
+                key="5"
+              >
+                <td>
+                  <a
+                    href="/client/5"
+                    target="_blank"
+                  >
+                    Stu Idiot
+                  </a>
+                </td>
+              </tr>
+              <tr
+                className="org-item"
+                key="2"
+              >
+                <td>
+                  <a
+                    href="/client/2"
+                    target="_blank"
+                  >
+                    Barry Mich
+                  </a>
+                </td>
+              </tr>
+              <tr
+                className="org-item"
+                key="3"
+              >
+                <td>
+                  <a
+                    href="/client/3"
+                    target="_blank"
+                  >
+                    In Dus
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </Clients>
+  </Apollo(Clients)>
+</ApolloProvider>
+`;
+
+exports[`Contact Clients tab should render Clients tab without data 1`] = `
+<div
+  className="jsx-849491339 spinner"
+>
+  <div
+    className="jsx-849491339 double-bounce1"
+  />
+  <div
+    className="jsx-849491339 double-bounce2"
+  />
+</div>
+`;
+
+exports[`Contact Clients tab should return contact data from mock server  1`] = `
+Object {
+  "contact": Object {
+    "clients": Object {
+      "edges": Array [
+        Object {
+          "cursor": "Cursor line",
+          "node": Object {
+            "id": "7",
+            "name": "Ulian Node",
+          },
+        },
+        Object {
+          "cursor": "Cursor line",
+          "node": Object {
+            "id": "8",
+            "name": "Barry Mich",
+          },
+        },
+      ],
+    },
+    "id": "6",
+    "secondClients": Object {
+      "edges": Array [
+        Object {
+          "cursor": "Cursor line",
+          "node": Object {
+            "id": "9",
+            "name": "In Dus",
+          },
+        },
+        Object {
+          "cursor": "Cursor line",
+          "node": Object {
+            "id": "10",
+            "name": "Eng Ineer",
+          },
+        },
+      ],
+    },
+  },
+}
+`;

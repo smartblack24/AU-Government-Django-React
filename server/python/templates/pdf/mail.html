@@ -1,0 +1,45 @@
+<style type="text/css">
+  h1, h2, h3, h4, h5, h6 {
+    color: #455a64;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  h5 {
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  .attachment {
+    word-break: break-all;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+</style>
+<div>
+  <h4>{{subject}}</h4>
+  <h5>From: {{sender}}</h5>
+  <h5>To: {{recipient}}</h5>
+  <h5>Date: {{date | date:'M jS, Y g:i A'}}</h5>
+  {% if matter %}
+    <h5>Matter: {{matter}}</h5>
+  {% else %}
+    <h5>Matter: No matter</h5>
+  {% endif %}
+</div>
+{{content}}
+{% if attachments %}
+<div>
+  <h5>Attachments ({{attachments|length}})</h5>
+  {% for attachment in attachments %}
+    <div class="attachment">
+      {{attachment}}
+    </div>
+  {% endfor %}
+</div>
+{% endif %}

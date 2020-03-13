@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tr should render Tr with props 1`] = `
+<tr
+  className="jsx-391693574 "
+  onClick={[Function]}
+  props={
+    Object {
+      "children": <th>
+        test
+      </th>,
+      "onClick": [MockFunction],
+    }
+  }
+/>
+`;
+
+exports[`Tr should render Tr without props children 1`] = `
+<tr
+  className="jsx-391693574 "
+  onClick={[Function]}
+/>
+`;

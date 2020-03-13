@@ -1,0 +1,78 @@
+Reference,Name
+A,"AGRICULTURE, FORESTRY AND FISHING "
+A02 ,Aquaculture 
+A03 ,Forestry And Logging 
+A04 ,"Fishing, Hunting And Trapping "
+A05 ,"Agriculture, Forestry And Fishing Support Services "
+B,MINING 
+B06 ,Coal Mining 
+B07 ,Oil And Gas Extraction 
+B08 ,Metal Ore Mining 
+B09 ,Non-Metallic Mineral Mining And Quarrying 
+C11 ,Food Product Manufacturing 
+C13 ,"Textile, Leather, Clothing And Footwear Manufacturing "
+C14 ,Wood Product Manufacturing 
+C15 ,"Pulp, Paper And Converted Paper Product Manufacturing "
+C16 ,Printing (Including The Reproduction Of Recorded Media) 
+C17 ,Petroleum And Coal Product Manufacturing 
+C18 ,Basic Chemical And Chemical Product Manufacturing 
+C19 ,Polymer Product And Rubber Product Manufacturing 
+C20 ,Non-Metallic Mineral Product Manufacturing 
+C21 ,Primary Metal And Metal Product Manufacturing 
+C22 ,Fabricated Metal Product Manufacturing 
+C24 ,Machinery And Equipment Manufacturing 
+C25 ,Furniture And Other Manufacturing 
+D26 ,Electricity Supply 
+D27 ,Gas Supply 
+D28 ,"Water Supply, Sewerage And Drainage Services "
+D29 ,"Waste Collection, Treatment And Disposal Services "
+E,CONSTRUCTION 
+E31 ,Heavy And Civil Engineering Construction 
+F,WHOLESALE TRADE 
+F33 ,Basic Material Wholesaling 
+F34 ,Machinery And Equipment Wholesaling 
+F35 ,Motor Vehicle And Motor Vehicle Parts Wholesaling 
+F36 ,"Grocery, Liquor And Tobacco Product Wholesaling "
+F37 ,Other Goods Wholesaling 
+F38 ,Commission-Based Wholesaling 
+G40 ,Fuel Retailing 
+G41 ,Food Retailing 
+G42 ,Other Store-Based Retailing 
+G43 ,Non-Store Retailing And Retail Commission-Based Buying And/Or Selling 
+H,ACCOMMODATION AND FOOD SERVICES 
+I,TRANSPORT POSTAL AND WAREHOUSING 
+I47 ,Rail Transport 
+I50 ,Other Transport 
+I51 ,Postal And Courier Pick-Up And Delivery Services 
+I52 ,Transport Support Services 
+I53 ,Warehousing And Storage Services 
+J,INFORMATION MEDIA AND TELECOMMUNICATIONS 
+J54 ,Publishing (Except Internet And Music Publishing) 
+J55 ,Motion Picture And Sound Recording Activities 
+J56 ,Broadcasting (Except Internet) 
+J57 ,Internet Publishing And Broadcasting 
+J60 ,Library And Other Information Services 
+K,FINANCIAL AND INSURANCE SERVICES 
+K64 ,Auxiliary Finance And Insurance Services 
+L,"RENTAL, HIRING AND REAL ESTATE SERVICES "
+L66 ,Rental And Hiring Services (Except Real Estate) 
+M,"PROFESSIONAL, SCIENTIFIC AND TECHNICAL SERVICES "
+M69 ,"Professional, Scientific And Technical Services (Except Computer System Design And Related Services) "
+N,ADMINISTRATIVE AND SUPPORT SERVICES 
+O,PUBLIC ADMINISTRATION AND SAFETY 
+O76 ,Defence 
+O77 ,"Public Order, Safety And Regulatory Services "
+P80 ,Preschool And School Education 
+P81 ,Tertiary Education 
+P82 ,"Adult, Community And Other Education "
+Q,HEALTH CARE AND SOCIAL ASSISTANCE 
+Q84 ,Hospitals 
+Q86 ,Residential Care Services 
+R89 ,Heritage Activities 
+R90 ,Creative And Performing Arts Activities 
+R91 ,Sport And Recreation Activities 
+R92 ,Gambling Activities 
+S,OTHER SERVICES 
+S94 ,Repair And Maintenance 
+S96 ,Private Households Employing Staff And Undifferentiated Goods- And Service-Producing Activities Of Households For Own Use
+S96 ,Private Households Employing Staff and Undifferentiated Goods- and Service-Producing Activities of Households for Own Use

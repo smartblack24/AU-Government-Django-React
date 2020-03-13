@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Note should render Note with full props 1`] = `
+<table
+  className="jsx-3305124439 table table-bordered table-striped m-b-0"
+  id="mainTable"
+>
+  <thead
+    className="jsx-3305124439"
+  >
+    <tr
+      className="jsx-3305124439"
+    >
+      <th
+        className="jsx-3305124439"
+      >
+        Date time
+      </th>
+      <th
+        className="jsx-3305124439"
+        width="70%"
+      >
+        Note
+      </th>
+      <th
+        className="jsx-3305124439"
+      >
+        Staff member
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="jsx-3305124439"
+  >
+    <tr
+      className="jsx-2376464361"
+    >
+      <td
+        className="jsx-2376464361"
+        style={
+          Object {
+            "textAlign": "center",
+            "width": 200,
+          }
+        }
+      >
+        <div
+          className="col"
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Jan 16th 2019
+        </div>
+      </td>
+      <td
+        className="jsx-2376464361"
+      >
+        <div
+          className="jsx-2376464361 row"
+        >
+          <div
+            className="col"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          />
+        </div>
+      </td>
+      <td
+        className="jsx-2376464361"
+      />
+    </tr>
+    <tr
+      className="jsx-2376464361"
+    >
+      <td
+        className="jsx-2376464361"
+        style={
+          Object {
+            "textAlign": "center",
+            "width": 200,
+          }
+        }
+      >
+        <div
+          className="col"
+          onClick={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Jan 16th 2019
+        </div>
+      </td>
+      <td
+        className="jsx-2376464361"
+      >
+        <div
+          className="jsx-2376464361 row"
+        >
+          <div
+            className="col"
+            onClick={[Function]}
+            role="button"
+            tabIndex={0}
+          />
+        </div>
+      </td>
+      <td
+        className="jsx-2376464361"
+      />
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Note should render Note without data 1`] = `
+<div>
+  No notes
+</div>
+`;

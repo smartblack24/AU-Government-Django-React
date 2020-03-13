@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Children tab should render Children tab with passed data  1`] = `
+<div
+  className="table-responsive"
+>
+  <table
+    className="table table-bordered"
+  >
+    <thead>
+      <tr>
+        <th>
+          Children
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <a
+            href="/contact/1"
+            target="_blank"
+          >
+            :LongName1
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a
+            href="/contact/2"
+            target="_blank"
+          >
+            :LongName2
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Contact Children tab should render Children tab without data 1`] = `
+<div
+  className="table-responsive"
+>
+  <table
+    className="table table-bordered"
+  >
+    <thead>
+      <tr>
+        <th>
+          Children
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          No children
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

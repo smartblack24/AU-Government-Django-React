@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact ReferrerList tab should render ReferrerList tab without data 1`] = `
+Array [
+  <div
+    className="form-group"
+  >
+    <div>
+      <label
+        htmlFor="referrer"
+      >
+        This contact was introduced by
+      </label>
+      <div>
+        <div
+          className="Select is-clearable is-loading is-searchable Select--single"
+        >
+          <div
+            className="Select-control"
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={null}
+          >
+            <span
+              className="Select-multi-value-wrapper"
+              id="react-select-2--value"
+            >
+              <div
+                className="Select-placeholder"
+              >
+                Loading...
+              </div>
+              <div
+                className="Select-input"
+                style={
+                  Object {
+                    "display": "inline-block",
+                  }
+                }
+              >
+                <input
+                  aria-activedescendant="react-select-2--value"
+                  aria-expanded="false"
+                  aria-haspopup="false"
+                  aria-owns=""
+                  id="referrer"
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  required={false}
+                  role="combobox"
+                  style={
+                    Object {
+                      "boxSizing": "content-box",
+                      "width": "5px",
+                    }
+                  }
+                  value=""
+                />
+                <div
+                  style={
+                    Object {
+                      "height": 0,
+                      "left": 0,
+                      "overflow": "scroll",
+                      "position": "absolute",
+                      "top": 0,
+                      "visibility": "hidden",
+                      "whiteSpace": "pre",
+                    }
+                  }
+                >
+                  
+                </div>
+              </div>
+            </span>
+            <span
+              aria-hidden="true"
+              className="Select-loading-zone"
+            >
+              <span
+                className="Select-loading"
+              />
+            </span>
+            <span
+              className="Select-arrow-zone"
+              onMouseDown={[Function]}
+            >
+              <span
+                className="Select-arrow"
+                onMouseDown={[Function]}
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="table-responsive"
+  >
+    <table
+      className="table table-bordered"
+    >
+      <thead>
+        <tr>
+          <th>
+            People referred by this Contact
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            No referrers
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+]
+`;

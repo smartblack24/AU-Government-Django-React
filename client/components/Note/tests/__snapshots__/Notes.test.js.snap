@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Note should render Note with full props 1`] = `
+Array [
+  <div
+    className="jsx-2126699498 modal fade"
+    id="addNoteModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="jsx-2126699498 modal-dialog "
+      role="document"
+    >
+      <div
+        className="jsx-2126699498 modal-content"
+      >
+        <div
+          className="jsx-2126699498 modal-header"
+        >
+          <h5
+            className="jsx-2126699498 modal-title"
+          >
+            Add a note
+          </h5>
+          <button
+            aria-label="Close"
+            className="jsx-2126699498 close"
+            data-dismiss="modal"
+            id="modalCloseButton"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+              className="jsx-2126699498"
+            >
+              ×
+            </span>
+          </button>
+        </div>
+        <div
+          className="jsx-2126699498 modal-body"
+          style={Object {}}
+        >
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              name="id"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              onFocus={[Function]}
+              type="hidden"
+              value=""
+            />
+            <div
+              className="form-group false"
+            >
+              <textarea
+                className="form-control"
+                id="text"
+                name="text"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onDragStart={[Function]}
+                onDrop={[Function]}
+                onFocus={[Function]}
+                placeholder="Type a note..."
+                style={
+                  Object {
+                    "minHeight": 200,
+                  }
+                }
+                value=""
+              />
+              <span
+                className="help-block text-danger"
+              >
+                <small />
+              </span>
+            </div>
+            <button
+              className="btn btn-success pull-right"
+              style={
+                Object {
+                  "width": 120,
+                }
+              }
+              type="submit"
+            >
+              Save
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="jsx-3717475008 table-responsive"
+  >
+    <div
+      className="jsx-3717475008 dt-buttons float-right col-xs-12"
+    >
+      <button
+        className="jsx-3717475008 dt-button buttons-html5"
+        data-target="#addNoteModal"
+        data-toggle="modal"
+      >
+        <span
+          className="jsx-3717475008"
+        >
+          Add
+        </span>
+      </button>
+    </div>
+    <table
+      className="jsx-3305124439 table table-bordered table-striped m-b-0"
+      id="mainTable"
+    >
+      <thead
+        className="jsx-3305124439"
+      >
+        <tr
+          className="jsx-3305124439"
+        >
+          <th
+            className="jsx-3305124439"
+          >
+            Date time
+          </th>
+          <th
+            className="jsx-3305124439"
+            width="70%"
+          >
+            Note
+          </th>
+          <th
+            className="jsx-3305124439"
+          >
+            Staff member
+          </th>
+        </tr>
+      </thead>
+      <tbody
+        className="jsx-3305124439"
+      >
+        <tr
+          className="jsx-2376464361"
+        >
+          <td
+            className="jsx-2376464361"
+            style={
+              Object {
+                "textAlign": "center",
+                "width": 200,
+              }
+            }
+          >
+            <div
+              className="col"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Jan 16th 2019
+            </div>
+          </td>
+          <td
+            className="jsx-2376464361"
+          >
+            <div
+              className="jsx-2376464361 row"
+            >
+              <div
+                className="col"
+                onClick={[Function]}
+                role="button"
+                tabIndex={0}
+              />
+            </div>
+          </td>
+          <td
+            className="jsx-2376464361"
+          />
+        </tr>
+        <tr
+          className="jsx-2376464361"
+        >
+          <td
+            className="jsx-2376464361"
+            style={
+              Object {
+                "textAlign": "center",
+                "width": 200,
+              }
+            }
+          >
+            <div
+              className="col"
+              onClick={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              Jan 16th 2019
+            </div>
+          </td>
+          <td
+            className="jsx-2376464361"
+          >
+            <div
+              className="jsx-2376464361 row"
+            >
+              <div
+                className="col"
+                onClick={[Function]}
+                role="button"
+                tabIndex={0}
+              />
+            </div>
+          </td>
+          <td
+            className="jsx-2376464361"
+          />
+        </tr>
+      </tbody>
+    </table>
+  </div>,
+]
+`;
+
+exports[`Note should render Note without data 1`] = `
+Array [
+  <div
+    className="jsx-2126699498 modal fade"
+    id="addNoteModal"
+    role="dialog"
+    tabIndex="-1"
+  >
+    <div
+      className="jsx-2126699498 modal-dialog "
+      role="document"
+    >
+      <div
+        className="jsx-2126699498 modal-content"
+      >
+        <div
+          className="jsx-2126699498 modal-header"
+        >
+          <h5
+            className="jsx-2126699498 modal-title"
+          >
+            Add a note
+          </h5>
+          <button
+            aria-label="Close"
+            className="jsx-2126699498 close"
+            data-dismiss="modal"
+            id="modalCloseButton"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+              className="jsx-2126699498"
+            >
+              ×
+            </span>
+          </button>
+        </div>
+        <div
+          className="jsx-2126699498 modal-body"
+          style={Object {}}
+        >
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              name="id"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              onFocus={[Function]}
+              type="hidden"
+              value=""
+            />
+            <div
+              className="form-group false"
+            >
+              <textarea
+                className="form-control"
+                id="text"
+                name="text"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onDragStart={[Function]}
+                onDrop={[Function]}
+                onFocus={[Function]}
+                placeholder="Type a note..."
+                style={
+                  Object {
+                    "minHeight": 200,
+                  }
+                }
+                value=""
+              />
+              <span
+                className="help-block text-danger"
+              >
+                <small />
+              </span>
+            </div>
+            <button
+              className="btn btn-success pull-right"
+              style={
+                Object {
+                  "width": 120,
+                }
+              }
+              type="submit"
+            >
+              Save
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="jsx-3717475008 table-responsive"
+  >
+    <div
+      className="jsx-3717475008 dt-buttons float-right col-xs-12"
+    >
+      <button
+        className="jsx-3717475008 dt-button buttons-html5"
+        data-target="#addNoteModal"
+        data-toggle="modal"
+      >
+        <span
+          className="jsx-3717475008"
+        >
+          Add
+        </span>
+      </button>
+    </div>
+    <div>
+      No notes
+    </div>
+  </div>,
+]
+`;

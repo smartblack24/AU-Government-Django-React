@@ -1,0 +1,371 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`utils should render result of Select with empty data 1`] = `
+<select
+  onChange={[Function]}
+/>
+`;
+
+exports[`utils should render result of Select with props data 1`] = `
+<select
+  onChange={[Function]}
+  props={
+    Object {
+      "children": <option>
+        Test option
+      </option>,
+      "onChange": [MockFunction],
+    }
+  }
+/>
+`;
+
+exports[`utils should render result of Tab with data 1`] = `
+<li
+  className="jsx-3173724134 nav-item"
+>
+  <a
+    className="jsx-3173724134 nav-link false undefined"
+    onClick={[Function]}
+    role="tab"
+    tabIndex={0}
+  >
+    Children
+  </a>
+</li>
+`;
+
+exports[`utils should render result of Tab with data 2`] = `
+<li
+  className="jsx-3173724134 nav-item"
+>
+  <a
+    className="jsx-3173724134 nav-link active disabled"
+    onClick={[Function]}
+    role="tab"
+    tabIndex={0}
+  >
+    Children
+  </a>
+</li>
+`;
+
+exports[`utils should render result of Tab with empty data 1`] = `
+<li
+  className="jsx-3173724134 nav-item"
+>
+  <a
+    className="jsx-3173724134 nav-link active undefined"
+    onClick={[Function]}
+    role="tab"
+    tabIndex={0}
+  />
+</li>
+`;
+
+exports[`utils should render result of Textarea with props data 1`] = `
+<textarea
+  onChange={[Function]}
+  props={
+    Object {
+      "className": "form-control",
+      "name": "name",
+      "onChange": [MockFunction],
+    }
+  }
+/>
+`;
+
+exports[`utils should render result of Textarea without data 1`] = `
+<textarea
+  onChange={[Function]}
+/>
+`;
+
+exports[`utils should render result of capitalize empty data 1`] = `
+<div>
+  
+</div>
+`;
+
+exports[`utils should render result of capitalize string data 1`] = `
+<div>
+  Qwe
+</div>
+`;
+
+exports[`utils should render result of capitalize with few words data 1`] = `
+<div>
+  Qwe qwe
+</div>
+`;
+
+exports[`utils should render result of formatCurrency with 1 digit data 1`] = `
+<div>
+  $1.00
+</div>
+`;
+
+exports[`utils should render result of formatCurrency with 2 digit data 1`] = `
+<div>
+  $12.00
+</div>
+`;
+
+exports[`utils should render result of formatCurrency with 3 digit data 1`] = `
+<div>
+  $123.00
+</div>
+`;
+
+exports[`utils should render result of formatCurrency with 6 digit data 1`] = `
+<div>
+  $123,456.00
+</div>
+`;
+
+exports[`utils should render result of formatCurrency with empty data 1`] = `
+<div>
+  $0.00
+</div>
+`;
+
+exports[`utils should render result of formatDate with 4 digits data 1`] = `
+<div>
+  12/08
+</div>
+`;
+
+exports[`utils should render result of formatDate with 8 digits data 1`] = `
+<div>
+  12/08/2018
+</div>
+`;
+
+exports[`utils should render result of formatDate with 12 digits data 1`] = `
+<div>
+  12/08/2018
+</div>
+`;
+
+exports[`utils should render result of formatDate with alphabet data 1`] = `
+<div>
+  
+</div>
+`;
+
+exports[`utils should render result of formatDate with digits and alphabet data 1`] = `
+<div>
+  12/08/2018
+</div>
+`;
+
+exports[`utils should render result of formatDate with empty data 1`] = `
+<div>
+  
+</div>
+`;
+
+exports[`utils should render result of getBillableStatusDisplay with status 1 data 1`] = `
+<div>
+  Billable
+</div>
+`;
+
+exports[`utils should render result of getBillableStatusDisplay with status 2 data 1`] = `
+<div>
+  Non billable
+</div>
+`;
+
+exports[`utils should render result of getBillableStatusDisplay with status invalid data 1`] = `
+<div>
+  GST (10%)
+</div>
+`;
+
+exports[`utils should render result of getEntryType with type 1 data 1`] = `
+<div>
+  TimeEntry
+</div>
+`;
+
+exports[`utils should render result of getEntryType with type 2 data 1`] = `
+<div>
+  Disbursement
+</div>
+`;
+
+exports[`utils should render result of getEntryType with type empty data 1`] = `
+<div>
+  FixedPriceItem
+</div>
+`;
+
+exports[`utils should render result of getEntryType with type invalid data 1`] = `
+<div>
+  FixedPriceItem
+</div>
+`;
+
+exports[`utils should render result of getGstStatusDisplay with status 1 data 1`] = `
+<div>
+  GST (10%)
+</div>
+`;
+
+exports[`utils should render result of getGstStatusDisplay with status 2 data 1`] = `
+<div>
+  GST Export (0%)
+</div>
+`;
+
+exports[`utils should render result of getGstStatusDisplay with status 3 data 1`] = `
+<div>
+  BAS Excluded (0%)
+</div>
+`;
+
+exports[`utils should render result of getGstStatusDisplay with status invalid data 1`] = `
+<div>
+  GST (10%)
+</div>
+`;
+
+exports[`utils should render result of getNominatedTypeDisplay with status 1 data 1`] = `
+<div>
+  Executor
+</div>
+`;
+
+exports[`utils should render result of getNominatedTypeDisplay with status 2 data 1`] = `
+<div>
+  Attorney
+</div>
+`;
+
+exports[`utils should render result of getNominatedTypeDisplay with status 3 data 1`] = `
+<div>
+  Guardian
+</div>
+`;
+
+exports[`utils should render result of getNominatedTypeDisplay with status 4 data 1`] = `
+<div>
+  Donee
+</div>
+`;
+
+exports[`utils should render result of getNominatedTypeDisplay with status 5 data 1`] = `
+<div>
+  Substitute Decision Maker
+</div>
+`;
+
+exports[`utils should render result of getNominatedTypeDisplay with status 6 data 1`] = `
+<div>
+  Beneficiary
+</div>
+`;
+
+exports[`utils should render result of getNominatedTypeDisplay with status 7 data 1`] = `
+<div>
+  Other
+</div>
+`;
+
+exports[`utils should render result of getNominatedTypeDisplay with status invalid data 1`] = `
+<div>
+  No Selection
+</div>
+`;
+
+exports[`utils should render result of normalizeCurrency with 1 digit data 1`] = `
+<div>
+  1
+</div>
+`;
+
+exports[`utils should render result of normalizeCurrency with 3 digit and alphabet data 1`] = `
+<div>
+  123
+</div>
+`;
+
+exports[`utils should render result of normalizeCurrency with 3 digit data 1`] = `
+<div>
+  123
+</div>
+`;
+
+exports[`utils should render result of normalizeCurrency with empty data 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`utils should render result of normalizePhone with 4 and 5 length value data 1`] = `
+<div>
+  1234-5
+</div>
+`;
+
+exports[`utils should render result of normalizePhone with 8 and 9 length value data 1`] = `
+<div>
+  1234-567-8
+</div>
+`;
+
+exports[`utils should render result of normalizePhone with 9 and 10 length value data 1`] = `
+<div>
+  1234-567-89
+</div>
+`;
+
+exports[`utils should render result of normalizePhone with 11 and 12 length value data 1`] = `
+<div>
+  1234-567-890
+</div>
+`;
+
+exports[`utils should render result of normalizePhone with 12 and 13 length value data 1`] = `
+<div>
+  1234-567-890
+</div>
+`;
+
+exports[`utils should render result of normalizePhone with empty data 1`] = `
+<div>
+  
+</div>
+`;
+
+exports[`utils should render result of onlyNumbers with 3 digit and alphabet data 1`] = `
+<div>
+  123
+</div>
+`;
+
+exports[`utils should render result of onlyNumbers with empty data 1`] = `
+<div>
+  
+</div>
+`;
+
+exports[`utils should render result of parseCurrency with type empty data 1`] = `
+<div>
+  0
+</div>
+`;
+
+exports[`utils should render result of parseCurrency with type invalid data 1`] = `
+<div>
+  1212
+</div>
+`;
+
+exports[`utils should render result of parseCurrency with type some data 1`] = `
+<div>
+  123
+</div>
+`;

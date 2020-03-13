@@ -1,0 +1,60 @@
+import graphene
+from core.inputs import IDField
+
+
+class MatterInput(graphene.InputObjectType):
+    client = graphene.InputField(IDField, required=True)
+    principal = graphene.InputField(IDField, required=True)
+    manager = graphene.InputField(IDField, required=True)
+    assistant = graphene.InputField(IDField)
+    name = graphene.String(required=True)
+    description = graphene.String(required=True)
+    matter_type = graphene.InputField(IDField, required=True)
+    matter_sub_type = graphene.InputField(IDField)
+    conflict_status = graphene.Int()
+    conflict_parties = graphene.String()
+    created_date = graphene.String()
+    closed_date = graphene.String()
+    budget = graphene.Float(null=True)
+    billing_method = graphene.Int(required=True)
+    billable_status = graphene.Int()
+    funds_in_trust = graphene.Boolean()
+    matter_status = graphene.Int()
+    file_path = graphene.String()
+    conflict_check_sent = graphene.String()
+    is_conflict_check_sent = graphene.Boolean()
+    standard_terms_sent = graphene.String()
+    is_standard_terms_sent = graphene.Boolean()
+    referrer_thanked = graphene.String()
+    is_referrer_thanked = graphene.Boolean()
+    lead_date = graphene.String()
+    lead_status = graphene.Int()
+    entry_type = graphene.Int()
+    lost = graphene.Boolean()
+    won = graphene.Boolean()
+
+
+class TimeEntryInput(graphene.InputObjectType):
+    description = graphene.String()
+    client = graphene.InputField(IDField)
+    staff_member = graphene.InputField(IDField)
+    matter = graphene.InputField(IDField)
+    units = graphene.Int()
+    status = graphene.Int()
+    date = graphene.String()
+    gst_status = graphene.Int()
+    rate = graphene.Float()
+    record_type = graphene.Int()
+    time = graphene.String()
+
+
+class DisbursementInput(graphene.InputObjectType):
+    description = graphene.String()
+    client_id = graphene.ID()
+    matter_id = graphene.ID()
+    staff_member_id = graphene.ID()
+    rate = graphene.Float()
+    units = graphene.Int()
+    date = graphene.String()
+    gst_status = graphene.Int()
+    status = graphene.Int()
